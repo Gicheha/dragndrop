@@ -49,8 +49,7 @@ class ShoppingCart extends Component{
 
         return(
             <div className='shopping-cart' style={style}>
-                {isActive ? 'Hummmm, snack' : 'Drag here to Order'}
-                Drag here to order!
+                {isActive ? 'Hummmm, snack' : 'Drag here to Order! '}
             </div>
         );
     }

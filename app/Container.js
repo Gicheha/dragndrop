@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ShoppingCart from './ShoppingCart';
 import Snack from './Snack';
 import {DragDropContext} from 'react-dnd';
-import HTMLBackend from 'react-dnd-html5-backend';
+import HTML5Backend from 'react-dnd-html5-backend';
 
 class Container extends Component{
     render(){
@@ -18,4 +18,4 @@ class Container extends Component{
         );
     }
 }
-export default DragDropContext(HTMLBackend)(Container);
+export default DragDropContext(HTML5Backend)(Container);

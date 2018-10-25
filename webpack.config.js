@@ -7,7 +7,7 @@ module.exports ={
     entry: "./app/App.js",
     output:{
         filename:"bundle.js",
-        SourceMapFilename:"bundle.map"
+        sourceMapFilename:"bundle.map"
     },
     module:{
         rules:[{
