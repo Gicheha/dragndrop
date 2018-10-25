@@ -238,6 +238,25 @@ var App = function (_Component) {
 
 /***/ }),
 
+/***/ "./app/Constants.js":
+/*!**************************!*\
+  !*** ./app/Constants.js ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = {
+    SNACK: 'sncak'
+};
+
+/***/ }),
+
 /***/ "./app/Container.js":
 /*!**************************!*\
   !*** ./app/Container.js ***!
@@ -452,6 +471,10 @@ var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-type
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
+var _Constants = __webpack_require__(/*! ./Constants */ "./app/Constants.js");
+
+var _Constants2 = _interopRequireDefault(_Constants);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -537,7 +560,7 @@ Snack.propTypes = {
     name: _propTypes2.default.string.isRequired
 };
 
-exports.default = (0, _reactDnd.DragSource)('snack', snackSpec, collect)(Snack);
+exports.default = (0, _reactDnd.DragSource)(_Constants2.default.SNACK, snackSpec, collect)(Snack);
 
 /***/ }),
 

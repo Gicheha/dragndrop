@@ -26,7 +26,7 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="6" />
+          <entry key="js" value="8" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
@@ -35,21 +35,21 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JavaScript" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1" />
           <entry key="html" value="13" />
-          <entry key="js" value="3336" />
+          <entry key="js" value="3502" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
           <entry key="HTML" value="13" />
-          <entry key="JavaScript" value="3336" />
+          <entry key="JavaScript" value="3502" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -97,11 +97,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Snack.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+            <state relative-caret-position="190">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Constants.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -111,9 +120,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -126,6 +135,8 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/app/ShoppingCart.js" />
         <option value="$PROJECT_DIR$/app/Container.js" />
+        <option value="$PROJECT_DIR$/Constants.js" />
+        <option value="$PROJECT_DIR$/app/Constants.js" />
         <option value="$PROJECT_DIR$/app/Snack.js" />
       </list>
     </option>
@@ -171,6 +182,11 @@
             <path>
               <item name="dragndrop" type="b2602c69:ProjectViewProjectNode" />
               <item name="dragndrop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dragndrop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dragndrop" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -212,18 +228,18 @@
       <updated>1540201577814</updated>
       <workItem from="1540201579505" duration="5320000" />
       <workItem from="1540287343613" duration="2189000" />
-      <workItem from="1540449680695" duration="4114000" />
+      <workItem from="1540449680695" duration="5041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11623000" />
+    <option name="totallyTimeSpent" value="12550000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="677" height="624" extended-state="0" />
+    <frame x="-4" y="0" width="668" height="624" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.247557" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24722663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,10 +321,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Constants.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Snack.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        <state relative-caret-position="190">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
